@@ -1,5 +1,5 @@
-import './common.css';
-import { Reset } from 'styled-reset'
+import "./common.css"
+import {Reset} from "styled-reset"
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <Reset />
       <h1>new project</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
