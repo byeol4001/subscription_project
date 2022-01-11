@@ -1,0 +1,36 @@
+@import "../../variable.scss";
+.main-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .main-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      color: $MainBlue;
+      font-size: 5rem;
+      font-weight: 900;
+      margin-bottom: 30px;
+    }
+    .main-inner-subtext {
+      margin-bottom: 60px;
+      p {
+        &.bold {
+          font-weight: 900;
+        }
+        font-size: 1.15rem;
+        line-height: 2rem;
+      }
+    }
+    .main-inner-ver {
+      width: 100%;
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.7rem;
+      color: $MainBlue;
+    }
+  }
+}
