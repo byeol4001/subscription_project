@@ -1,4 +1,4 @@
-import "./common.css"
+import "./common.scss"
 import {Reset} from "styled-reset"
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 
