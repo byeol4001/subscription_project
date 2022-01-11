@@ -1,12 +1,13 @@
 import "./common.css"
 import {Reset} from "styled-reset"
+import {BrowserRouter, Route, Routes} from "react-router-dom"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Reset />
-      <h1>new project</h1>
-    </div>
+      <Routes></Routes>
+    </BrowserRouter>
   )
 }
 
