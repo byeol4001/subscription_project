@@ -14,7 +14,7 @@ export default function Main() {
           <p className="bold">달마다 조용히 나가는 돈 ?!</p>
           <p>구독 서비스 월결제 금액 계산해보기</p>
         </div>
-        <BasicButton text="확인하러 가기" move="/" color="main" />
+        <BasicButton text="확인하러 가기" move="/select" color="main" />
         <span className="main-inner-ver">ver 0.1</span>
       </div>
     </div>
