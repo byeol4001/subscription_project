@@ -1,13 +1,14 @@
 import "./common.scss"
-import {Reset} from "styled-reset"
 import {BrowserRouter, Route, Routes} from "react-router-dom"
+
 import Main from "./pages/Main"
 import Select from "./pages/Select"
+import GlobalStyle from "./styles/GlobalStyle.js"
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Reset />
+      <GlobalStyle />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/select" element={<Select />} />
