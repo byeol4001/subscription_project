@@ -1,9 +1,11 @@
-import "./common.scss"
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 
 import Main from "./pages/Main"
 import Select from "./pages/Select"
 import GlobalStyle from "./styles/GlobalStyle.js"
+
+import "./styles/common.scss"
+import "./styles/components.scss"
 
 const App = () => {
   return (

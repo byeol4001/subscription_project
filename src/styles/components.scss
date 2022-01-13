@@ -1,8 +1,5 @@
 @import "./variable.scss";
 
-/* font */
-@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
-
 /* components */
 .c-basic-button {
   display: flex;
@@ -24,7 +21,6 @@
 }
 
 .c-main-text-box {
-  width: 100%;
   padding: 1.3rem 1rem;
   margin-bottom: 2rem;
   background-color: $MainBlue;
@@ -50,7 +46,7 @@
     padding: 1rem;
     color: $MainBlack;
     .content-title {
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 700;
       line-height: 130%;
     }
